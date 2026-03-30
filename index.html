@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ============================================================
+       Portfolio — index.html
+       Multi-page architecture
+       W3C-valid semantic HTML5 | Mobile-first | External CSS
+  ============================================================ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+        content="Delcine Mawoyo — Web designer&amp;Website Portfolio showcasing projects, skills, and experience." />
+  <title>Delcine Mawoyo — Portfolio</title>
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Preconnect for Google Fonts (already imported via CSS) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <header role="banner">
+    <nav class="nav" aria-label="Primary navigation">
+      <div class="container">
+        <!-- Logo -->
+        <a href="index.html" class="nav-logo" aria-label="Delcine Mawoyo – Home">
+          DM
+        </a>
+
+        <!-- Desktop links -->
+        <ul class="nav-links" role="list">
+          <li><a href="index.html"    class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- Mobile hamburger -->
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"
+                aria-controls="nav-drawer" id="nav-toggle">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile drawer -->
+    <nav id="nav-drawer" class="nav-drawer" aria-label="Mobile navigation">
+      <a href="index.html"    class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===================== MAIN ===================== -->
+  <main id="main-content">
+
+    <!-- ============ PAGE: HOME ============ -->
+    <section id="home" class="page active" aria-label="Home">
+
+      <!-- Hero -->
+      <article class="hero section">
+        <div class="container">
+          <div class="hero-inner">
+
+            <!-- Text -->
+            <div class="hero-text">
+              <p class="hero-eyebrow">Available for hire</p>
+
+              <h1 class="hero-name">Delcine Mawoyo</h1>
+
+              <p class="hero-tagline">Web designer &amp; </p>
+
+              <p class="hero-intro">
+                 I am an Information security and assurance student at HIT.
+                I am aspiring in specialising into web designing and cyber security.
+                 
+            
+        
+              </p>
+
+              <div class="hero-cta">
+                <a href="projects.html" class="btn btn-primary">
+                  View My Work
+                  <!-- Arrow icon -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                       viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                       stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                       aria-hidden="true">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                  </svg>
+                </a>
+                <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+              </div>
+            </div>
+
+            <!-- Avatar -->
+            <figure class="hero-avatar" aria-label="Photo of Delcine Mawoyo">
+              <!-- Using a gradient placeholder — swap src for a real photo -->
+              <img
+                src="C:\Users\D\Downloads\files\images.jpg\WhatsApp Image 2024-10-09 at 19.55.50 - Copy.jpeg"
+                alt="Delcine Mawoyo – illustrated avatar"
+                width="220" height="220"
+              />
+            </figure>
+
+          </div><!-- /hero-inner -->
+
+          <!-- Stats strip -->
+          <div class="stats" role="list">
+            <div class="stat" role="listitem">
+              <p class="stat-num">1</p>
+              <p class="stat-label">Years Experience</p>
+            </div>
+            <div class="stat" role="listitem">
+              <p class="stat-num">2</p>
+              <p class="stat-label">Projects Shipped</p>
+            </div>
+            <div class="stat" role="listitem">
+              <p class="stat-num">2</p>
+              <p class="stat-label">Happy Clients</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Scroll hint (visible on desktop) -->
+        <span class="scroll-hint" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 5v14M5 12l7 7 7-7"/>
+          </svg>
+          Scroll
+        </span>
+      </article>
+
+    </section>
+    <!-- /home -->
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p>
+        &copy; <span>2026</span>
+        <span>Delcine Mawoyo</span> — Designed &amp; built with care.
+        All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>

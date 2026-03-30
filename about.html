@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ============================================================
+       Portfolio — about.html
+       Multi-page architecture
+       W3C-valid semantic HTML5 | Mobile-first | External CSS
+  ============================================================ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+        content="Delcine Mawoyo — Web designer&amp;Website Portfolio showcasing projects, skills, and experience." />
+  <title>Delcine Mawoyo — Portfolio</title>
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Preconnect for Google Fonts (already imported via CSS) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <header role="banner">
+    <nav class="nav" aria-label="Primary navigation">
+      <div class="container">
+        <!-- Logo -->
+        <a href="index.html" class="nav-logo" aria-label="Delcine Mawoyo – Home">
+          DM
+        </a>
+
+        <!-- Desktop links -->
+        <ul class="nav-links" role="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- Mobile hamburger -->
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"
+                aria-controls="nav-drawer" id="nav-toggle">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile drawer -->
+    <nav id="nav-drawer" class="nav-drawer" aria-label="Mobile navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===================== MAIN ===================== -->
+  <main id="main-content">
+
+    <!-- ============ PAGE: ABOUT ============ -->
+    <section id="about" class="page active" aria-label="About me">
+
+      <!-- Bio + photo -->
+      <div class="section container about-grid">
+
+        <!-- Photo column -->
+        <figure class="bio-photo" aria-label="Professional photo of Alex Rivera">
+          <img
+            src="C:\Users\D\Downloads\files\images.jpg\WhatsApp Image 2026-03-30 at 17.11.00.jpeg"
+            alt="Delcine – professional portrait"
+            width="340" height="425"
+            loading="lazy"
+          />
+        </figure>
+
+        <!-- Text column -->
+        <div class="bio-text">
+          <p class="section-label">Who I Am</p>
+          <h2 class="section-title">Passionate about web designing &amp; code</h2>
+
+          <p>
+            Hi! I'm Delcine           </p>
+          <p>
+            I am an Information Security student with a strong interest in protecting digital systems, data, and networks from cyber threats. My academic journey has allowed me to develop a solid foundation in areas such as cybersecurity principles, network security, ethical computing, and secure system design. I am passionate about understanding how cyberattacks occur and how effective security measures can be implemented to safeguard information in today’s technology-driven world.
+            
+      
+          </p>
+          
+          
+            
+
+          
+
+          <a href="contact.html" class="btn btn-outline"
+             style="margin-top:1.75rem">
+            Let's work together
+          </a>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="section container" style="padding-top:0">
+        <p class="section-label">What I Do</p>
+        <h2 class="section-title">Skills &amp; Technologies</h2>
+        <p class="section-sub">A snapshot of the skills  i am acquiring and aim to improve</p>
+
+        <div class="skills-grid" id="skills-grid">
+          <!-- Each .skill-fill width is set by JS on reveal -->
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Networking</span>
+              <span class="skill-pct">50%</span>
+            </div>
+            
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Web designing</span>
+              <span class="skill-pct">88%</span>
+            </div>
+            
+          
+
+      
+
+  
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Trancsription</span>
+              <span class="skill-pct">85%</span>
+            </div> 
+            
+            
+        
+          
+    <div class="section container" style="padding-top:0">
+        <p class="section-label">My Journey</p>
+        <h2 class="section-title">Education &amp; Experience</h2>
+
+        <ol class="timeline" role="list">
+
+          <li class="tl-item">
+            <time class="tl-date" datetime="2023">2025 – Present</time>
+            <h3 class="tl-role">Information security assurance student</h3>
+            <p class="tl-org">Harare Institute of Technology</p>
+            
+            </li>
+            
+          
+
+          <li class="tl-item">
+            <time class="tl-date" datetime="2020">2023 – 2024</time>
+            <h3 class="tl-role">A level</h3>
+            <p class="tl-org">First Class High school</p>
+            
+            
+      
+            
+          </li>
+
+          <li class="tl-item">
+            <time class="tl-date" datetime="2018">2019– 2022</time>
+            <h3 class="tl-role">O level</h3>
+            <p class="tl-org">St Augustines High School</p>
+                               
+            
+          </li>
+
+          
+                    
+          
+          
+            
+               
+
+        </ol>
+      </div>
+
+    </section>
+    <!-- /about -->
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p>
+        &copy; <span>2026</span>
+        <span>Delcine Mawoyo</span> — Designed &amp; built with care.
+        All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
