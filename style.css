@@ -1,6 +1,6 @@
 /* ============================================================
    PORTFOLIO — style.css
-   Author: Alex Rivera  |  Mobile-first, CSS custom properties
+   Author: Delcine Mawoyo  |  Mobile-first, CSS custom properties
    ============================================================ */
 
 /* ── 1. Google Fonts ── */
@@ -9,11 +9,11 @@
 /* ── 2. CSS Custom Properties ── */
 :root {
   /* Palette */
-  --clr-bg:        #0d0d0d;
+  --clr-bg:        #5e0a69f3;
   --clr-surface:   #161616;
   --clr-card:      #1e1e1e;
   --clr-border:    #2a2a2a;
-  --clr-accent:    #c8a96e;   /* warm gold */
+  --clr-accent:    #c86eab;   /* warm gold */
   --clr-accent2:   #7eb8c9;   /* steel blue */
   --clr-text:      #e8e2d9;
   --clr-muted:     #888;
@@ -104,7 +104,7 @@ ul { list-style: none; }
 
 .btn-primary {
   background: var(--clr-accent);
-  color: #0d0d0d;
+  color: #1d114b;
 }
 .btn-primary:hover {
   transform: translateY(-2px);
